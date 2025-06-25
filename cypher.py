@@ -13,3 +13,6 @@ def match(encrypted: str, plain: str, shift:int = 1):
         else:
             return False
     return True
+
+if __name__ == "__main__":
+    print("Up and running CYPHER")
